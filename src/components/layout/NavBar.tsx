@@ -73,7 +73,7 @@ const NavBar = () => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.3 }}
-              className="absolute top-full left-0 w-full bg-white/60 backdrop-blur-md shadow-sm flex flex-col items-center py-4 md:hidden"
+              className="absolute top-full left-0 w-full bg-white/80 backdrop-blur-md shadow-sm flex flex-col items-center py-4 md:hidden"
             >
               <ul className="flex flex-col items-center gap-4 text-md text-black font-medium">
                 {["work", "about", "contact"].map((section) => (
