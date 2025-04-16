@@ -10,7 +10,6 @@ import {
   CarouselPrevious,
   type CarouselApi,
 } from "@/components/ui/carousel";
-import { images } from "../../../public";
 import Link from "next/link";
 
 const Projects = () => {
