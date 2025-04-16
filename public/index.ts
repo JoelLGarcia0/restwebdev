@@ -1,6 +1,7 @@
 export const icons = {
   logo1: "/icons/logo.png",
   logo2: "/icons/logo2.png",
+  favicon: "/icons/favicon.ico",
 };
 
 export const images = {
