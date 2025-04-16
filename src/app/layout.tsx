@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "SEO-friendly websites",
   ],
   openGraph: {
-    title: "Small Business Web Development | RESTWeb Dev",
+    title: "RESTWeb Dev | Small Business Web Development",
     description:
       "Professional website design & development services for small businesses.",
     url: "https://restweb.dev/",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Small Business Web Development | RESTWeb Dev",
+    title: "RESTWeb Dev | Small Business Web Development",
     description:
       "We build affordable, SEO-optimized websites for small businesses.",
     images: ["https://restweb.dev/images/og-image.jpg"],
