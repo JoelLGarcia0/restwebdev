@@ -29,7 +29,7 @@ const NavBar = () => {
           : "bg-white"
       }`}
     >
-      <div className="max-w-content mx-auto flex items-center justify-between py-4">
+      <div className="max-w-content mx-auto flex items-center justify-between ">
         {/* Logo */}
         <div className="flex items-center gap-2">
           <Link href="/">

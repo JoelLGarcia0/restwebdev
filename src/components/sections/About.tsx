@@ -5,7 +5,7 @@ import { IoBarChartSharp } from "react-icons/io5";
 
 const About = () => {
   return (
-    <section id="about" className=" scroll-mt-38 py-12 px-4 bg-white">
+    <section id="about" className=" scroll-mt-30 py-12 px-4 bg-white">
       <div className="max-w-5xl mx-auto text-left">
         <h2 className="text-3xl drop-shadow-lg font-bold mb-4">
           We Bring Your Vision to Life

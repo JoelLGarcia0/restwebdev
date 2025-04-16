@@ -28,7 +28,7 @@ const Projects = () => {
   }, [api]);
 
   return (
-    <section id="work" className="py-16 px-4 scroll-mt-36 bg-white">
+    <section id="work" className="py-16 px-4 scroll-mt-28 bg-white">
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
         {/* Left: Carousel */}
         <div className="w-full lg:w-1/2 text-center">
