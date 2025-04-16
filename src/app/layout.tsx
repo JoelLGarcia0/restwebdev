@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Small Business Web Development | RESTWeb Dev",
+  title: "RESTWeb Dev | Small Business Web Development",
   description: "Building fast, modern websites for small businesses.",
   icons: {
     icon: "/icons/favicon.ico",
