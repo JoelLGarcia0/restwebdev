@@ -5,7 +5,7 @@ export const icons = {
 
 export const images = {
   herobg: "/images/restwebbg.jpeg",
-  hero: "/images/heroimage.png",
+  hero: "/images/heroimage.svg",
   project1: "/images/project1.jpg",
   project2: "/images/project2.jpg",
   project3: "/images/project3.jpg",
