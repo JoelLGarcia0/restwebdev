@@ -20,7 +20,7 @@ export async function POST(req: Request) {
     const mailOptions = {
       from: `"Webpage Contact Form <${process.env.EMAIL_USER}>`,
       to: "joellorenzogarcia0@gmail.com",
-      subject: "New RESTweb Inquiry",
+      subject: "New RESTWeb Inquiry",
       text: `Name: ${fullName}\nEmail: ${email}\nBusiness Name: ${businessName}\nMessage: ${message}`,
     };
 

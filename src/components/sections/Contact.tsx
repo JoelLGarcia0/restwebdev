@@ -80,7 +80,7 @@ const Contact = () => {
         {/* Contact Form */}
         <div id="contact">
           <h2 className="text-3xl font-bold drop-shadow-lg mb-8">
-            Let's Build Your Website
+            Let&apos;s Build Your Website
           </h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <input

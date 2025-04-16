@@ -8,7 +8,8 @@ const Pricing = () => {
           Transparent Pricing. Powerful Results.
         </h2>
         <p className="text-gray-600 text-lg mb-10">
-          Ready to upgrade your business's online presence? Let’s chat.
+          Ready to upgrade your business&apos;s online presence? Let&apos;s
+          chat.
         </p>
 
         <div className="overflow-x-auto">
