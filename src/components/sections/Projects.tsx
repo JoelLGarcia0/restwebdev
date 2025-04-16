@@ -11,11 +11,20 @@ import {
   type CarouselApi,
 } from "@/components/ui/carousel";
 import { images } from "../../../public";
+import Link from "next/link";
 
 const Projects = () => {
   const [api, setApi] = useState<CarouselApi>();
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const slides = [images.project1, images.project2, images.project3];
+
+  const slides = [
+    { src: "/images/project1.jpg", href: "https://joellgarcia.com" },
+    { src: "/images/project2.jpg", href: "https://cubabakery.com" },
+    {
+      src: "/images/project3.jpg",
+      href: "https://lee-construction.vercel.app/",
+    },
+  ];
 
   useEffect(() => {
     if (!api) return;
@@ -48,15 +57,21 @@ const Projects = () => {
             <div className="w-full">
               <Carousel setApi={setApi}>
                 <CarouselContent>
-                  {slides.map((src, i) => (
+                  {slides.map((slide, i) => (
                     <CarouselItem key={i}>
                       <div className="relative h-72 w-full overflow-hidden">
-                        <Image
-                          src={src}
-                          alt={`Project ${i + 1}`}
-                          fill
-                          className="object-cover"
-                        />
+                        <Link
+                          href={slide.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Image
+                            src={slide.src}
+                            alt={`Project ${i + 1}`}
+                            fill
+                            className="object-cover"
+                          />
+                        </Link>
                       </div>
                     </CarouselItem>
                   ))}
