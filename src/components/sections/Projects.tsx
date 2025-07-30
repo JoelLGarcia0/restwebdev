@@ -17,11 +17,19 @@ const Projects = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const slides = [
+    {
+      src: "/images/project4.jpg",
+      href: "https://www.buddhabashajewelry.com",
+    },
     { src: "/images/project1.jpg", href: "https://www.joellgarcia.com" },
     { src: "/images/project2.jpg", href: "https://www.cubabakery.com" },
     {
       src: "/images/project3.jpg",
       href: "https://lee-construction.vercel.app/",
+    },
+    {
+      src: "/images/project4.jpg",
+      href: "https://www.buddhabashajewelry.com",
     },
   ];
 

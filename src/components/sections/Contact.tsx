@@ -56,23 +56,34 @@ const Contact = () => {
             What Clients Are Saying
           </h2>
 
-          <blockquote className="mb-8 text-gray-700">
-            <p className="text-lg">
+          <blockquote className="mb-4 text-gray-700">
+            <p className="text-md">
               “Joel gave my bakery the digital glow up that it needed. Fast,
               clean, and professional.”
             </p>
-            <footer className="mt-4 font-medium">
+            <footer className="mt-4 font-sm font-semibold">
               -German Perez, Bakery Owner
             </footer>
           </blockquote>
 
-          <blockquote className="text-gray-700">
-            <p className="text-lg">
+          <blockquote className="mb-4 text-gray-700">
+            <p className="text-md">
               “Joel made me a beautiful landing page with some great extra
               animations. He went above and beyond my expectations”
             </p>
-            <footer className="mt-4 font-medium">
+            <footer className="mt-4 font-sm font-semibold">
               -Luis Enriquez, Business Owner
+            </footer>
+          </blockquote>
+
+          <blockquote className="text-gray-700">
+            <p className="text-md">
+              “The Buddha Basha jewelry site Joel created is exactly what I
+              envisioned—elegant, modern, and easy to manage. The checkout and
+              inventory features work flawlessly.”
+            </p>
+            <footer className="mt-4 font-sm font-semibold">
+              -Ana Rodriguez, Jewelry Designer
             </footer>
           </blockquote>
         </div>
