@@ -27,10 +27,6 @@ const Projects = () => {
       src: "/images/project3.jpg",
       href: "https://lee-construction.vercel.app/",
     },
-    {
-      src: "/images/project4.jpg",
-      href: "https://www.buddhabashajewelry.com",
-    },
   ];
 
   useEffect(() => {
