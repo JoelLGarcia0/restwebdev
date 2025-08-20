@@ -18,9 +18,14 @@ const Projects = () => {
 
   const slides = [
     {
+      src: "/images/project5.jpg",
+      href: "https://yoelbobcatservices.vercel.app/",
+    },
+    {
       src: "/images/project4.jpg",
       href: "https://www.buddhabashajewelry.com",
     },
+
     { src: "/images/project1.jpg", href: "https://www.joellgarcia.com" },
     { src: "/images/project2.jpg", href: "https://www.cubabakery.com" },
     {
